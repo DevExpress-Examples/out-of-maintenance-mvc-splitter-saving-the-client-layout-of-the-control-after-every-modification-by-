@@ -1,0 +1,34 @@
+﻿@Html.DevExpress().CallbackPanel(settings =>
+{
+    settings.Name = "CallbackPanel";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "CallbackPanelPartial" };
+    settings.Width = Unit.Percentage(100);
+    settings.Height = 500;
+    settings.SetContent(() =>
+    {
+        @Html.DevExpress().Splitter(splitter =>
+        {
+            splitter.Name = "Splitter";
+            splitter.Height = 400;
+            splitter.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+            splitter.AllowResize = true;
+            splitter.ShowCollapseBackwardButton = true;
+            splitter.ShowCollapseForwardButton = true;
+            splitter.ClientLayout = (s, e) =>
+            {
+                if (Session["layout"] != null)
+                {
+                    e.LayoutData = (string)Session["layout"];
+                }
+            };
+            for (int i = 0; i < 4; i++)
+            {
+                MVCxSplitterPane pane = new MVCxSplitterPane("Pane" + i);
+                pane.SetContent(() => { ViewContext.Writer.Write("Content"); });
+                splitter.Panes.Add(pane);
+            }
+            splitter.ClientSideEvents.PaneCollapsed = splitter.ClientSideEvents.PaneResizeCompleted = splitter.ClientSideEvents.PaneExpanded = "UpdateState";
+
+        }).Render();
+    });
+}).GetHtml()
