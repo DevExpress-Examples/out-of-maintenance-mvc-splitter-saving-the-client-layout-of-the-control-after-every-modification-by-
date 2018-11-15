@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/DXWebApplication1/Controllers/HomeController.cs)
+* **[_CallbackPanelPartial.cshtml](./CS/DXWebApplication1/Views/Home/_CallbackPanelPartial.cshtml)**
+* [Index.cshtml](./CS/DXWebApplication1/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # MVC Splitter - Saving the client layout of the control after every modification by a user
 
 
