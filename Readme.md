@@ -6,6 +6,9 @@
 * [Index.cshtml](./CS/DXWebApplication1/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # MVC Splitter - Saving the client layout of the control after every modification by a user
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t152893)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to preserve the MVC Splitter layout when an end-user expands, collapses or resizes its panes. <br /><br /></p>
