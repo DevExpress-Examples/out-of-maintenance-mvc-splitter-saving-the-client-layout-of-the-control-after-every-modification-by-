@@ -7,7 +7,7 @@
 <!-- default file list end -->
 # MVC Splitter - Saving the client layout of the control after every modification by a user
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t152893)**
+**[[Run Online]](https://codecentral.devexpress.com/t152893/)**
 <!-- run online end -->
 
 
