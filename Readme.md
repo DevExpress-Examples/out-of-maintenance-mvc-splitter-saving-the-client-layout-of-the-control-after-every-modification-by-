@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128552950/14.1.8%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T152893)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -11,9 +6,6 @@
 * [Index.cshtml](./CS/DXWebApplication1/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # MVC Splitter - Saving the client layout of the control after every modification by a user
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t152893/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to preserve the MVC Splitter layout when an end-user expands, collapses or resizes its panes. <br /><br /></p>
